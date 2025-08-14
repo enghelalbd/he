@@ -66,3 +66,41 @@ function isSame(arr1, arr2) {
 
     }
 }
+
+
+// Problem 5 
+
+function  resultReport(marks) {
+    if(Array.isArray(marks)===false){
+
+         return "Invalid"      
+    }
+    let finalScore=0;
+    let  pass=0;
+    let fail=0;
+    let sum=0;
+     if(marks.length===0){
+       return { finalScore: 0 , pass: 0, fail: 0 }
+    }
+    for( let mark of marks ){
+      sum=sum+mark
+
+    if([mark]>=40){
+        pass=pass+1;       
+    
+    }
+    else if([mark]<40){
+        fail=fail+1;       
+    
+    }    
+    
+      }
+ 
+        finalScore=Math.round(sum/marks.length)
+       
+
+        const result=   {finalScore:finalScore,   pass:pass,fail:fail}    
+       
+        return result
+
+}
