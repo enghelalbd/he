@@ -21,7 +21,7 @@ else if(fare<0){
        
 }
 
-//   Problem 3 
+//   Problem 2 
 
 function  onlyCharacter( str ) {
 
@@ -61,8 +61,8 @@ function isSame(arr1, arr2) {
     }
     else {
 
-
-        console.log('Not same')
+ return false
+        
 
     }
 }

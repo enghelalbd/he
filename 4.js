@@ -18,8 +18,7 @@ function isSame(arr1,arr2){
             }
 }
     
-isSame( 
-[1, undefined , 3] , [1,null ,3]  )
+
 
 console.log(
 
