@@ -7,7 +7,7 @@ const  penanty=fare+fare*0.2+30
          
          return penanty
  }
- else if (typeof fare === 'string'){
+ else if (typeof fare == 'string'){
     
   return "Invalid" 
  }

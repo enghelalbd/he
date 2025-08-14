@@ -6,20 +6,22 @@ function  onlyCharacter( str ) {
     console.log("Invalid")
 
     }
-else if (typeof str=="string")  {
+// else if (typeof str=="string")
+    else     
+    {
 
     let newstr=str.replaceAll(' ','')
-    let upstr=newstr.toUpperCase()
+    let result=newstr.toUpperCase()
    
-    // return newstr
+    // return result
     console.log(newstr)
-      console.log(upstr)
+      console.log(result)
 
 }
 
 }
 
-onlyCharacter(true)
+onlyCharacter("Serv er : : Do wn")
 
 
 
