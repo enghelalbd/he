@@ -1,12 +1,21 @@
 function  onlyCharacter( str ) {
-    let re=str.trim();
 
-   console.log(re)
+    let newstr=str.replaceAll(" ","")
+    let upstr=newstr.toUpperCase()
 
+    return upstr
+
+// return newstr
+
+
+//  return str.replaceAll(" ", "").toUpperCase();
+   
 
 
 }
 
-onlyCharacter('hjkdsjhgh jhjkhdfj jkljdj')
+onlyCharacter("Cy   bar- At  tac k  ")
+console.log( onlyCharacter("Cy   bar- At  tac k  ")   )
+
 
 
