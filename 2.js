@@ -1,21 +1,31 @@
 function  onlyCharacter( str ) {
 
-    let newstr=str.replaceAll(" ","")
-    let upstr=newstr.toUpperCase()
 
-    return upstr
+    if(typeof str !=="string") {
+     return "Invalid"
+  
 
-// return newstr
+    }
 
+    else     
+    {
 
-//  return str.replaceAll(" ", "").toUpperCase();
+    let newstr=str.replaceAll(' ','')
+    let result=newstr.toUpperCase()
    
-
+     return result
+  
 
 }
 
-onlyCharacter("Cy   bar- At  tac k  ")
-console.log( onlyCharacter("Cy   bar- At  tac k  ")   )
+}
+
+onlyCharacter(false )
 
 
+
+console.log(
+
+onlyCharacter(false )
+)
 
